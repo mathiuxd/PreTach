@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/Core/">
+    <Project Path="PreTach.Application/PreTach.Application.csproj" />
+    <Project Path="PreTach.Core/PreTach.Core.csproj" />
+  </Folder>
+  <Folder Name="/Infrastructure/">
+    <Project Path="PreTach.Persistence/PreTach.Persistence.csproj" />
+  </Folder>
+  <Folder Name="/Presenters/">
+    <Project Path="PreTach.Web/PreTach.Web.csproj" />
+  </Folder>
+</Solution>
