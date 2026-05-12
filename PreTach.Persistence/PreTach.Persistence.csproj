@@ -8,7 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\PreTach.Application\PreTach.Application.csproj" />
-    <ProjectReference Include="..\PreTach.Core\PreTach.Core.csproj" />
+    <ProjectReference Include="..\PreTach.Domain\PreTach.Domain.csproj" />
   </ItemGroup>
 
 </Project>
