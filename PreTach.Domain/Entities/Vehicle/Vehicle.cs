@@ -15,7 +15,6 @@ namespace PreTach.Domain.Entities
 
         private Vehicle()
         {
-
         }
 
         public Vehicle(Guid userId, string licensePlate, int mileage, int dailyKmAverage, string? brand = null, string? model = null, int? year = null)

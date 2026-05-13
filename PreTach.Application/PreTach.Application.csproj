@@ -7,7 +7,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="MediatR" Version="14.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PreTach.Core\PreTach.Domain.csproj" />
     <ProjectReference Include="..\PreTach.Domain\PreTach.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="UseCases\Users\Queries\" />
   </ItemGroup>
 
 </Project>
