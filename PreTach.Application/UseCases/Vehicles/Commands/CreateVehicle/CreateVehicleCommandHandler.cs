@@ -3,7 +3,7 @@
 using MediatR;
 using PreTach.Domain.Entities;
 
-namespace PreTach.Application.UseCases.Vehicles.Commands
+namespace PreTach.Application.UseCases.Vehicles.Commands.CreateVehicle
 {
     public class CreateVehicleCommandHandler : IRequestHandler<CreateVehicleCommand, Guid>
     {

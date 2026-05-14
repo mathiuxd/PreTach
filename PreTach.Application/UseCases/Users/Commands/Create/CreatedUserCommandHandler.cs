@@ -2,7 +2,7 @@
 using PreTach.Domain.Entities;
 
 
-namespace PreTach.Application.UseCases.Users.Commands
+namespace PreTach.Application.UseCases.Users.Commands.Create
 {
     public class CreateUserCommandHandler : IRequestHandler<CreateUserCommand, Guid>
     {

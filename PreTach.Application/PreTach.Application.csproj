@@ -15,8 +15,4 @@
     <ProjectReference Include="..\PreTach.Domain\PreTach.Domain.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="UseCases\Users\Queries\" />
-  </ItemGroup>
-
 </Project>

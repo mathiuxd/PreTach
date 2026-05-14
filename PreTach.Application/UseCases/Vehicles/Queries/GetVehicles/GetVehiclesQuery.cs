@@ -4,8 +4,8 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace PreTach.Application.UseCases.Vehicles.Queries
+namespace PreTach.Application.UseCases.Vehicles.Queries.GetVehicles
 {
     public record GetVehiclesQuery(Guid UserId) : IRequest<List<Vehicle>>;
 }
-    
+        
